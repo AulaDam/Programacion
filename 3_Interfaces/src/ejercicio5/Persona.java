@@ -24,5 +24,14 @@ public abstract class Persona {
     
     public abstract void pedirDatosEspecificos();
     
+    public abstract void visualizarTodosDatos();
+
+    @Override
+    public String toString() {
+        return "[-] Nombre: " + this.nombre + "\n[-] Edad: " + this.edad + "\n[-] Sueldo base: " + this.SUELDOBASE;
+    }
+    
+    
+    
     
 }
