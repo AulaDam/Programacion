@@ -1,4 +1,6 @@
-package ejercicio5;
+package ejercicio6;
+
+import ejercicio5.*;
 
 public class Main {
     public static void main(String[] args) {

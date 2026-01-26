@@ -1,4 +1,5 @@
-package ejercicio5;
+package ejercicio6;
+import ejercicio5.*;
 import java.util.Scanner;
 
 public class Vista {

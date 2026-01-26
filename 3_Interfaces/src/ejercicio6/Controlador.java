@@ -1,4 +1,6 @@
-package ejercicio5;
+package ejercicio6;
+import ejercicio5.*;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Controlador {
@@ -24,6 +26,10 @@ public class Controlador {
         asignarMaquinistas(numeroMaquinistas);
         asignarEmpleados(numeroEmpleados);
         
+        calcularMediaEdad(baseDeDatos.getAdministrativos());
+        calcularMediaEdad(baseDeDatos.getMaquinistas());
+        calcularMediaEdad(baseDeDatos.getEmpleados());
+        
         int opcion;
         
         do {
@@ -33,18 +39,18 @@ public class Controlador {
             
             switch(opcion) {
                 case 1:
-                    for (Administrativo a : baseDeDatos.getAdministrativos()) {
-                        System.out.println(a);
+                    for (Persona administrativo : baseDeDatos.getAdministrativos()) {
+                        System.out.println(administrativo);
                     }
                     break;                    
                 case 2: 
-                    for (Maquinista m : baseDeDatos.getMaquinistas()) {
-                        System.out.println(m);
+                    for (Persona maquinista : baseDeDatos.getMaquinistas()) {
+                        System.out.println(maquinista);
                     }
                     break;
                 case 3:
-                    for (Empleado e : baseDeDatos.getEmpleados()) {
-                        System.out.println(e);
+                    for (Persona empleado : baseDeDatos.getEmpleados()) {
+                        System.out.println(empleado);
                     }
                     break;
                 default:
@@ -84,6 +90,21 @@ public class Controlador {
         }
         
     }
+        
+        public double calcularMediaEdad(ArrayList<Persona> trabajadores) {
+            
+            int sumaEdad = 0;
+            int contador = 0;
+            
+            for (Persona trabajador : trabajadores) {
+                sumaEdad+=trabajador.edad;
+                contador++;
+            }
+            
+            double media = sumaEdad/contador;
+            return media;
+            
+        }
         
         
     
