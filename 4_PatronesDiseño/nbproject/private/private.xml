@@ -6,5 +6,38 @@
             <file>file:/home/guillermo/NetBeansProjects/PatronesDiseño/src/R1_Singleton/Main.java</file>
             <file>file:/home/guillermo/NetBeansProjects/PatronesDiseño/src/R1_Singleton/CentroAvisos.java</file>
         </group>
+        <group name="Programacion">
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R1_Singleton/Main.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R1_Singleton/CentroAvisos.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R2_Singlenton/Main.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R2_Singlenton/Configuracion.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R3_FactoryPrimero/Main.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R3_FactoryPrimero/IEnvio.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R3_FactoryPrimero/EnvioCamion.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R3_FactoryPrimero/EnvioCorreo.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R3_FactoryPrimero/EnvioMoto.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R3_FactoryPrimero/EnvioCreator.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R3_FactoryPrimero/EnvioCamionCreator.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R3_FactoryPrimero/EnvioCorreoCreator.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R3_FactoryPrimero/EnvioMotoCreator.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R4_FactoryClaude/Main.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R4_FactoryClaude/IVehiculo.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R4_FactoryClaude/Coche.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R4_FactoryClaude/Moto.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R4_FactoryClaude/Barco.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R4_FactoryClaude/VehiculoFactory.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R5_FactoryVideo/Main.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R5_FactoryVideo/Conexion.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R5_FactoryVideo/Oracle.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R5_FactoryVideo/Sql.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R5_FactoryVideo/Postgress.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R5_FactoryVideo/ConexionFactory.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R6_FactoryEjercicio/Main.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R6_FactoryEjercicio/Documento.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R6_FactoryEjercicio/Factura.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R6_FactoryEjercicio/Recibo.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R6_FactoryEjercicio/Justificante.java</file>
+            <file>file:/C:/Dam_repos/Programacion/4_PatronesDiseño/src/R6_FactoryEjercicio/DocumentoFactory.java</file>
+        </group>
     </open-files>
 </project-private>
