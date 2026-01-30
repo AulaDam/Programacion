@@ -15,6 +15,8 @@ public class Main {
         names.add("Mike");
         names.add("Saul");
         names.add("Tuco");
+        names.add("Tuco");
+        System.out.println(names);
         
         names.remove("Tuco");
         

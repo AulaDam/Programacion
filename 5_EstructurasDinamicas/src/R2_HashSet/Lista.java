@@ -22,16 +22,23 @@ public class Lista {
     
     //2. Mostrar lista
     public void mostrarLista() {
-        System.out.println("Mostrar lista");
+        
+        for (Producto p : listaProductos) {
+            
+            System.out.println("[-] Nombre: " + p.getNombre());
+            System.out.println("[-] Cantidad: " + p.getCantidad());
+            System.out.println("[-] Precio unidad: " + p.getPrecioUnidad());
+            
+        }
     
     }
     
     //3. Modificar cantidad de un determinado producto
-    public void modificarCantidad(Producto producto, int cantidad) {
+    public void modificarCantidad(String producto, int cantidad) {
         
         for (Producto p : listaProductos) {
-            if (p.equals(producto)) {
-                producto.setCantidad(cantidad);
+            if (p.getNombre().equalsIgnoreCase(producto)) {
+                p.setCantidad(cantidad);
                 return;
             }
         }
@@ -39,10 +46,10 @@ public class Lista {
     }
     
     //4. Eliminar un producto
-    public void eliminarProducto(Producto producto) {
+    public void eliminarProducto(String producto) {
         
         for (Producto p : listaProductos) {
-            if (p.equals(producto)) {
+            if (p.getNombre().equalsIgnoreCase(producto)) {
                 listaProductos.remove(p);
                 return;
             }

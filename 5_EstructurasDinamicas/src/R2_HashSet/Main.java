@@ -5,8 +5,7 @@ public class Main {
         
         Controlador controlador = new Controlador();
         
-        controlador.mostrarMenu();
-        
+        controlador.inicar();
         
         
         
@@ -17,5 +16,6 @@ public class Main {
         
         
     }
+    
     
 }
