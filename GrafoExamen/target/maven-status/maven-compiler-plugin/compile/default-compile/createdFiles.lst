@@ -1,0 +1,8 @@
+com\mycompany\grafoexamen\Maquina.class
+Vista\Vista.class
+com\mycompany\grafoexamen\GrafoExamen.class
+modelo\Evento.class
+modelo\Transicion.class
+modelo\Grafo.class
+Excepciones\ExcepcionFinDeJuego.class
+Excepciones\ExcepcionObjetoRequerido.class
